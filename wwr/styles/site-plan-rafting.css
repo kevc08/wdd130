@@ -2,7 +2,7 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Titillium+Web:ital,wght@1,200&display=swap');
-.home-tittle{
+.home-title{
   font-family: 'Moon Dance', 'titillum web';
   font-size: 2em;
 }
