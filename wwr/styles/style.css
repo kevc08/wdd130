@@ -137,7 +137,7 @@ nav {
 #faq-grid {
     display: grid;
     grid-template-columns: 3fr 4fr 3fr;
-    margin-top: -100px; 
+    grid-template-rows: 4fr 3fr;
 }
 #faq-box {
     grid-column: 1/2;
@@ -147,6 +147,23 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
 }
+#faq-box-right {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+#faq-box-low-left {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#faq-box-low-center {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}#faq-box-low-right {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+
 .card-img, .mountains {
     width: 100%;
 }
