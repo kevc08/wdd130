@@ -15,9 +15,9 @@ Fonts are separated by a | */
   --paragraph-font: 'Oswald', 'sans-serif';
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: #943939;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #bad48d; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
@@ -28,7 +28,7 @@ Fonts are separated by a | */
 
 #main-grid{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
@@ -58,6 +58,102 @@ Fonts are separated by a | */
   grid-column: 3/4;
   grid-row: 2/3;
 }
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+/* start of page 2*/
+#grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#textbox-upper-left2
+{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#images-middle-left2
+{grid-column: 1/2;
+grid-row: 2/3;
+}
+#text-box-middle2{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#image-middle-right2{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+#text-box-upper-right2{
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+/* start of page 3 */
+#grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#list-top-left{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#image-low-left-center{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+#text-box-middle3{
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+#list-top-right{
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+#image-low-right-center{
+  grid-column: 4/5;
+  grid-row: 2/3
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -208,4 +304,13 @@ main { display: flex;
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+footer {
+  padding: 1em;
+  text-align: center;
+  color: var(--headline-color-on-color);
+  background-color: var(--paragraph-background-color);
+}
+footer > h1, footer > h2 {
+  color: var(--headline-color-on-color);
 }
